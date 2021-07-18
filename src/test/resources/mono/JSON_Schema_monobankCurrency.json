@@ -1,0 +1,88 @@
+{
+  "$id": "http://example.com/example.json",
+  "examples": [
+    {
+      "currencyCodeA": 840,
+      "currencyCodeB": 980,
+      "date": 1552392228,
+      "rateSell": 27,
+      "rateBuy": 27.2,
+      "rateCross": 27.1
+    }
+  ],
+  "required": [
+    "currencyCodeA",
+    "currencyCodeB",
+    "date",
+    "rateSell",
+    "rateBuy",
+    "rateCross"
+  ],
+  "properties": {
+    "currencyCodeA": {
+      "default": 0,
+      "description": "An explanation about the purpose of this instance.",
+      "examples": [
+        840
+      ],
+      "title": "The currencyCodeA schema",
+      "maximum": 0,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "currencyCodeB": {
+      "default": 0,
+      "description": "An explanation about the purpose of this instance.",
+      "examples": [
+        980
+      ],
+      "title": "The currencyCodeB schema",
+      "maximum": 0,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "date": {
+      "default": 0,
+      "description": "An explanation about the purpose of this instance.",
+      "examples": [
+        1552392228
+      ],
+      "title": "The date schema",
+      "type": "integer"
+    },
+    "rateSell": {
+      "default": 0,
+      "description": "An explanation about the purpose of this instance.",
+      "examples": [
+        27
+      ],
+      "title": "The rateSell schema",
+      "maximum": 0,
+      "minimum": 0,
+      "type": "integer"
+    },
+    "rateBuy": {
+      "default": 0.0,
+      "description": "An explanation about the purpose of this instance.",
+      "examples": [
+        27.2
+      ],
+      "title": "The rateBuy schema",
+      "maximum": 0,
+      "minimum": 0,
+      "type": "number"
+    },
+    "rateCross": {
+      "default": 0.0,
+      "description": "An explanation about the purpose of this instance.",
+      "examples": [
+        27.1
+      ],
+      "title": "The rateCross schema",
+      "maximum": 0,
+      "minimum": 0,
+      "type": "number"
+    }
+  },
+  "additionalProperties": true
+}

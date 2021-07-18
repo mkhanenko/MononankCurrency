@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "default": {},
+  "examples": [
+    {
+      "ccy": "RUR",
+      "base_ccy": "UAH",
+      "buy": "0.28000",
+      "sale": "0.32000"
+    }
+  ],
+  "required": [
+    "ccy",
+    "base_ccy",
+    "buy",
+    "sale"
+  ],
+  "properties": {
+    "ccy": {
+      "$id": "#/properties/ccy",
+      "type": "string",
+      "title": "The ccy schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "RUR"
+      ]
+    },
+    "base_ccy": {
+      "$id": "#/properties/base_ccy",
+      "type": "string",
+      "title": "The base_ccy schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "UAH"
+      ]
+    },
+    "buy": {
+      "$id": "#/properties/buy",
+      "default": "",
+      "description": "An explanation about the purpose of this instance.",
+      "examples": [
+        "0.28000"
+      ],
+      "title": "The buy schema",
+      "maximum": 0,
+      "minimum": 0,
+      "type": "string"
+    },
+    "sale": {
+      "$id": "#/properties/sale",
+      "default": "",
+      "description": "An explanation about the purpose of this instance.",
+      "examples": [
+        "0.32000"
+      ],
+      "title": "The sale schema",
+      "maximum": 0,
+      "minimum": 0,
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
